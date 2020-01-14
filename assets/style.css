@@ -27,4 +27,20 @@
     font-family: 'Open Sans', sans-serif;
   }
   
-  
+  /* desktop */
+
+@media screen and (max-width: 40.5em) {
+  .card {
+width: auto;
+
+  }
+}
+
+/* tablet */
+@media screen and (min-width: 40.5em) {
+  .card {
+width: 80%;
+border: transparent;
+
+  }
+}
