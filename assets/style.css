@@ -4,14 +4,15 @@
     }
   
   body {
-    background-color: lightgreen;
+    background-color: whitesmoke;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
   
   
   .card{
     margin:auto; 
     float:none; 
-    margin-bottom: 10px; 
+    margin-bottom:10px; 
     margin-top: 10rem;         
   }
   
@@ -40,7 +41,6 @@ width: auto;
 @media screen and (min-width: 40.5em) {
   .card {
 width: 80%;
-border: transparent;
 
   }
 }
